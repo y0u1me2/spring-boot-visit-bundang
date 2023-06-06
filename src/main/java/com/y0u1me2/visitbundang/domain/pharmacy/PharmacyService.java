@@ -50,6 +50,7 @@ public class PharmacyService {
     }
 
     public void loadPharmacyData() {
+        // 약국 정보를 불러온다.
         LocalDateTime now = LocalDateTime.now();
         int dayOfWeek = now.getDayOfWeek().getValue();
 
